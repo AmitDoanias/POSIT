@@ -3,7 +3,6 @@
 An app I wrote with React, NodeJS, SQLite3.
 [Take a look, it's on Github pages](https://github.com/AmitDoanias/POSIT "Github pages link")
 
-<!-- ![Homepage image](src/assets/imgs/home-page.png "Homepage image") -->
 ![Homepage image](/imgs/home-page.png "Homepage image")
 ___
 
@@ -14,7 +13,7 @@ ___
 - [Showcase](#showcase)
 
 ## Description
-![Mission image](src/assets/imgs/mission.png "Mission image")
+![Mission image](/imgs/mission.png "Mission image")
 a bit about the project - a small App that was built in a few hours 
 Admins have the ability to create new call service for technicians and also will have the ability to see a list of all service calls for technicians.
 technicians will be able to see their list of calls for today and some information for each call.
@@ -49,13 +48,13 @@ Open http://localhost:3000 to view it in the browser.
 ## Showcase
 
 ### Admin-Dashboard page
-![ dashboard](src/assets/imgs/dashboard.png "dashboard")
+![ dashboard](/imgs/dashboard.png "dashboard")
 
 ### Technician page
-![ technician](src/assets/imgs/technician.png "technician")
+![ technician](/imgs/technician.png "technician")
 
 ### New Call
-![ newCall](src/assets/imgs/new-call.png "newCall")
+![ newCall](/imgs/new-call.png "newCall")
 
 ### Some mobile!
-<img src="src/assets/imgs/home-mobile.png" width="25%" style="float: left;"/><img src="src/assets/imgs/dash-mobile.png" width="25%" style="float: left;"/><img src="src/assets/imgs/new-call-mobile.png" width="25%" style="float: left;"/>
+<img src="/imgs/home-mobile.png" width="25%" style="float: left;"/><img src="/imgs/dash-mobile.png" width="25%" style="float: left;"/><img src="/imgs/new-call-mobile.png" width="25%" style="float: left;"/>
