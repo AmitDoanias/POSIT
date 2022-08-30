@@ -3,7 +3,8 @@
 An app I wrote with React, NodeJS, SQLite3.
 [Take a look, it's on Github pages](https://github.com/AmitDoanias/POSIT "Github pages link")
 
-![Homepage image](src/assets/imgs/home-page.png "Homepage image")
+<!-- ![Homepage image](src/assets/imgs/home-page.png "Homepage image") -->
+![Homepage image](/imgs/home-page.png "Homepage image")
 ___
 
 ### Table of Contents
