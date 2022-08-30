@@ -1,0 +1,40 @@
+/* Breakpoint mixins */
+
+@mixin for-mobile-layout {
+    @media (max-width: $mobile-breakpoint ) {
+        @content;
+    }
+}
+
+
+@mixin for-narrow-layout {
+    @media (min-width: $break-narrow) {
+        @content;
+    }
+}
+
+@mixin for-normal-layout {
+    @media (min-width: $break-normal) {
+        @content;
+    }
+}
+
+@mixin for-wide-layout {
+  @media (min-width: $break-wide )  {
+      @content;
+  }
+
+}
+
+@mixin for-wide-layout-details {
+    @media (min-width: $break-wide-details )  {
+        @content;
+    }
+}
+
+@mixin layoutGTC($max , $padding:$layoutPadding) {
+  grid-template-columns:
+    minmax($padding, 1fr)
+    minmax(auto, $max)
+    minmax($padding, 1fr);
+}

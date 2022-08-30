@@ -1,0 +1,24 @@
+.technician-details{
+    .title{
+        text-align: center;
+    }
+    
+    .btn-back{
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 2px;
+        padding-top: 3px;
+        border: 1px solid $clr4;
+        background-color: transparent;
+
+        &:hover{
+            // box-shadow: 0px 0px 1px 2px $clr5;
+            // transition: box-shadow 0.4s ease-in;
+            background-color: $clr5;
+            transition: all 0.2s;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,28 @@
+.app-header{
+    margin-bottom:1em;
+    box-shadow: 0px 3px $clr4;
+
+    .logo{
+        max-height: 60px;
+    }
+
+    nav a{
+        text-align: center;
+        width: 100px;
+        padding: 1.5em 0;
+        border-inline-end: 1px solid $clr4;
+        cursor: pointer;
+
+        &:first-of-type{
+            border-inline-start: 1px solid $clr4;
+        }
+
+        &:hover:not(.active){
+            box-shadow: 0px 3px $clr2;
+        }
+
+        &.active{
+            background-color: $clr5;
+        }
+    }
+}

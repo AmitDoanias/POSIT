@@ -1,0 +1,8 @@
+.call-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: rem(20px);
+    padding:15px 0px
+    
+}
+

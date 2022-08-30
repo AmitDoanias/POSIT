@@ -1,0 +1,23 @@
+.call-preview{
+    box-shadow:0px 10px 53px 0px rgba(0,0,0,0.3);
+    background-color: $clr4;
+    padding: 25px 20px;
+    border-radius: 12px;
+    color: $clr1;
+    height: 100%;
+
+    &:hover{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,0.3883928571428571) 0%, rgba(114,122,134,0.5648634453781513) 100%, rgba(0,212,255,1) 100%);
+    }
+
+    .call-id{
+        flex-basis: 20%;
+        order: 1;
+        color:$clr3
+    }
+
+    .call-data{
+        flex-basis: 80%;
+    }
+}
