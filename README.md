@@ -13,7 +13,8 @@ ___
 - [Showcase](#showcase)
 
 ## Description
-![Mission image](/imgs/mission.png "Mission image")
+<!-- ![Mission image](/imgs/mission.png "Mission image") -->
+
 a bit about the project - a small App that was built in a few hours 
 Admins have the ability to create new call service for technicians and also will have the ability to see a list of all service calls for technicians.
 technicians will be able to see their list of calls for today and some information for each call.
